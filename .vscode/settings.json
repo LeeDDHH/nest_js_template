@@ -1,0 +1,23 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/public": true,
+    "**/.cache": true,
+    "**/.git": true
+  },
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.trimTrailingWhitespace": false,
+    "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
